@@ -8,14 +8,14 @@ import item6 from '../components/item6.jpg'
 
 const ProductCard = ({ image, title, price }) => {
   return (
-    <div className="ml-20  rounded overflow-hidden shadow-lg">
-        <img className="w-50 h-50" src={image} alt={title} />
+    <div className="justify-center overflow-hidden rounded shadow-lg">
+        <img className="object-cover w-full h-60 rounded-t-md" src={image} alt={title} />
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">{title}</div>
-            <p className="text-gray-700 text-base">₹{price}</p>
+          <div className="mb-2 text-xl font-bold">{title}</div>
+            <p className="text-base text-gray-700">₹{price}</p>
           </div>
         <div className="px-6 py-4">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <button className="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">
             Add to Cart
           </button>
         </div>
@@ -64,7 +64,7 @@ const MainPage = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-4">
+    <div className="grid grid-cols-2 gap-6 p-6 md:grid-cols-3">
       {products.map((product) => (
         <ProductCard
           key={product.id}

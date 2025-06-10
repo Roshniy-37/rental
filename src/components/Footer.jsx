@@ -1,12 +1,11 @@
-import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-gray-300">
-      <div className="container mx-auto py-8 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="text-gray-300 bg-gray-800">
+      <div className="container px-4 py-8 mx-auto">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
-            <h2 className="text-xl font-semibold mb-4">Company</h2>
+            <h2 className="mb-4 text-xl font-semibold">Company</h2>
             <ul>
               <li className="mb-2"><a href="#" className="hover:text-white">About Us</a></li>
               <li className="mb-2"><a href="#" className="hover:text-white">Careers</a></li>
@@ -15,7 +14,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-xl font-semibold mb-4">Help & Support</h2>
+            <h2 className="mb-4 text-xl font-semibold">Help & Support</h2>
             <ul>
               <li className="mb-2"><a href="#" className="hover:text-white">FAQs</a></li>
               <li className="mb-2"><a href="#" className="hover:text-white">Terms & Conditions</a></li>
@@ -23,7 +22,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-xl font-semibold mb-4">Follow Us</h2>
+            <h2 className="mb-4 text-xl font-semibold">Follow Us</h2>
             <ul>
               <li className="mb-2"><a href="#" className="hover:text-white">Facebook</a></li>
               <li className="mb-2"><a href="#" className="hover:text-white">Twitter</a></li>
