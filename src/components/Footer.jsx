@@ -7,27 +7,27 @@ const Footer = () => {
           <div>
             <h2 className="mb-4 text-xl font-semibold">Company</h2>
             <ul>
-              <li className="mb-2"><a href="#" className="hover:text-white">About Us</a></li>
-              <li className="mb-2"><a href="#" className="hover:text-white">Careers</a></li>
-              <li className="mb-2"><a href="#" className="hover:text-white">Press</a></li>
-              <li className="mb-2"><a href="#" className="hover:text-white">Contact Us</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">About Us</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">Careers</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">Press</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">Contact Us</a></li>
             </ul>
           </div>
           <div>
             <h2 className="mb-4 text-xl font-semibold">Help & Support</h2>
             <ul>
-              <li className="mb-2"><a href="#" className="hover:text-white">FAQs</a></li>
-              <li className="mb-2"><a href="#" className="hover:text-white">Terms & Conditions</a></li>
-              <li className="mb-2"><a href="#" className="hover:text-white">Privacy Policy</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">FAQs</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">Terms & Conditions</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">Privacy Policy</a></li>
             </ul>
           </div>
           <div>
             <h2 className="mb-4 text-xl font-semibold">Follow Us</h2>
             <ul>
-              <li className="mb-2"><a href="#" className="hover:text-white">Facebook</a></li>
-              <li className="mb-2"><a href="#" className="hover:text-white">Twitter</a></li>
-              <li className="mb-2"><a href="#" className="hover:text-white">Instagram</a></li>
-              <li className="mb-2"><a href="#" className="hover:text-white">LinkedIn</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">Facebook</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">Twitter</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">Instagram</a></li>
+              <li className="mb-2"><a href="/home" className="hover:text-white">LinkedIn</a></li>
             </ul>
           </div>
         </div>

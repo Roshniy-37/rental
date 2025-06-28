@@ -1,4 +1,5 @@
 import bg from '../components/home-bg.png'; 
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -14,12 +15,12 @@ export default function Home() {
         <p className="mb-6 text-lg text-gray-200">
           Explore premium vehicles, top locations, and start your next ride with ease.
         </p>
-        <a
-          href="#products"
+        <Link
+          to="/products"
           className="inline-block px-6 py-3 text-lg font-semibold text-white transition bg-blue-600 rounded-lg hover:bg-blue-700"
         >
           Browse Vehicles
-        </a>
+        </Link>
       </div>
     </div>
   );
